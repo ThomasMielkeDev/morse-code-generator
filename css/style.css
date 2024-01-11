@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: MorseCoder;
+    src: url(../fonts/MorseCoder.ttf);
+}
+
+@font-face {
+    font-family: Motomangucode;
+    src: url(../fonts/Motomangucode.ttf);
+}
+
+body {
+    background-image: url(../images/wood-table-background.JPG);
+}
+
+h1 {
+    color: ghostwhite;
+    font-family: Motomangucode;
+    font-size: 4.5rem;
+    text-decoration: dashed underline;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.submit {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#input-text-container {
+    width: 60%;
+    height: 15vh;
+    background-color: ghostwhite;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-family: Motomangucode;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+#submit-button {
+    width: 20%;
+    padding: 1rem 1.5rem;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-family: Motomangucode;
+    font-size: 1.3rem;
+    box-shadow: 0.2rem 0.2rem 4px black;
+}
+
+#submit-button:active {
+    position: relative;
+    top: 0.2rem;
+    box-shadow: 0.05rem 0.05rem 4px black;
+}
+
+#conversion-container {
+    background-color: ghostwhite;
+    height: 50vh;
+    width: 60%;
+    padding: 1rem 1.5rem;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-family: Motomangucode;
+    font-size: 3rem; 
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
